@@ -1,0 +1,174 @@
+/*
+LOGIN PAGE
+*/
+.login-signin {
+    margin-top: 50px;
+}
+
+/*
+LOGIN-SIGN-IN BOX
+*/
+.login-signin-box {
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.form-header img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.form-header h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.login-signin-box .form-box .form-inputs input[type='email'],
+.login-signin-box .form-box .form-inputs input[type='password'] {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    color: rgba(0, 0, 0, 0.4);
+    background-color: #a4a4a4;
+    border: 1px solid rgba(158, 158, 158, 0.5);
+}
+
+.login-signin-box .form-box .col-md-12,
+.login-signin-box .form-box .col-md-7,
+.login-signin-box .form-box .col-md-3 {
+    padding: 0;
+}
+
+.login-signin-box .form-box .form-inputs {
+    margin-bottom: 5px;
+}
+
+.login-signin-box .form-box .form-inputs input[type='email'] {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 2px;
+}
+
+.login-signin-box .form-box .form-inputs input[type='password'] {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 2px;
+}
+
+.login-signin-box .form-box .remember-password input[type='checkbox'] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.login-signin-box .form-box .remember-password .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.container:hover input[type='checkbox'] ~ .checkmark {
+    background-color: #ccc;
+}
+
+.container input[type='checkbox']:checked ~ .checkmark {
+    background-color: #b82828;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input[type='checkbox']:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    left: 7px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.login-signin-box .form-box .remember-password label{
+    font-size: 15px;
+    display: block;
+    float: left;
+    margin-top: 1px;
+    margin-left: 25px;
+    font-weight: bolder;
+}
+
+.login-signin-box .form-box .forget-username-password label {
+    font-size: 13px;
+    margin: 5px 0 0 15px;
+    line-height: 13px;
+    width: 110px;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.login-signin-box .form-box .forget-username-password label a {
+    color: #b82828;
+}
+
+.login-signin-box .form-box button {
+    background-color: #b82828;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    transition: all .4s;
+}
+
+.login-signin-box .form-box button:hover {
+    background-color: #992020
+}
+
+/*
+NOT REGISTRED YET
+*/
+.age-warning {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px
+}
+
+.age-warning span {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.age-warning p {
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.register button{
+    display: block;
+    margin: 0 auto;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    width: 300px;
+}

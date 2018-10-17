@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+################
+NAVAGATION BAR
+################
+*/
+
+.nav-bar {
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0px 2px 5px #888888;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-bar .login-signin {
+    margin-bottom: -18px;
+    margin-top: -18px;
+    transform: translateY(115%);
+}
+
+.nav-bar .login-signin i {
+    font-size: 35px;
+    margin-right: 5px;
+    transition: all .4s;
+}
+
+.nav-bar .login-signin i:hover {
+    color: red;
+}
+
+.nav-bar .login-signin p,
+.nav-bar .login-signin a{
+    margin: 0;
+}
+
+.nav-bar .login-signin p {
+    font-size: 13px;
+}
+
+.nav-bar .login-signin a {
+    font-size: 14px;
+}
+
+.nav-bar a {
+    color: #000;
+    font-size: 20px;
+    transform: translateY(30%);
+}
+
+.nav-bar a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-bar img {
+    padding: 10px;
+}
